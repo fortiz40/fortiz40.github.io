@@ -4,6 +4,15 @@
     padding-right: 20px;
 }
 
+body {
+    color: white;
+    background-color: black;
+}
+
+.light {
+    color: white;
+}
+
 .navbar{
     height: 5vh !important;
 }
@@ -14,7 +23,7 @@
 
 
 #intro {
-    background-color: lightgreen;
+    background-color: black;
     height: 100vh;
 }
 
@@ -54,4 +63,19 @@
 .card{
     width: 20rem;
     margin: auto;
+}
+
+#projects {
+    height: 500px;
+    background: red;
+}
+
+#contact {
+    height: 500px;
+    background: green;
+}
+
+#experience {
+    height: 500px;
+    background: olivedrab;
 }
