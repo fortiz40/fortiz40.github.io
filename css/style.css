@@ -42,12 +42,12 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-#main{
+#main-content{
     height:1000px;
     background: lightcoral;
 }
 
-#main > .row {
+#main-content > .row {
     height: 100%;
 }
 
