@@ -1,5 +1,57 @@
 .fab {
-    color: white !important;
+    color: black;
 
     padding-right: 20px;
+}
+
+.navbar{
+    height: 5vh !important;
+}
+
+.navbar-brand{
+    margin-right: 50px !important;
+}
+
+
+#intro {
+    background-color: lightgreen;
+    height: 100vh;
+}
+
+#intro > .row {
+    margin: auto;
+}
+
+
+
+#intro-text{
+    text-align: center;
+    height: 100%;
+}
+
+.intro-text{
+    font-family: 'Monda', sans-serif;
+    font-size: 32px;
+}
+
+.card-title{
+    font-family: 'Monda', sans-serif;
+}
+
+.main-text{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main{
+    height:1000px;
+    background: lightcoral;
+}
+
+#main > .row {
+    height: 100%;
+}
+
+.card{
+    width: 20rem;
+    margin: auto;
 }
