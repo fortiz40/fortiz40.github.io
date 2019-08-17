@@ -2,6 +2,7 @@ $(document).ready(function() {
 
     initilizeSmoothScroll()
     setupIntersectionObserver();
+    initializeTooltips();
 
 
 })
@@ -25,7 +26,7 @@ function initilizeSmoothScroll() {
 function setupIntersectionObserver() {
 
     const nav = document.querySelector('.navbar');
-    const socialIcons = document.querySelectorAll('.fab');
+    const socialIcons = document.querySelectorAll('.social-link');
     const introContent = document.querySelector('#intro');
 
     const options = {
@@ -60,5 +61,12 @@ function setupIntersectionObserver() {
     );
 
     introContentObserver.observe(introContent)
+
+}
+
+function initializeTooltips(){
+    $('[data-toggle="tooltip"]').tooltip({
+        placement: 'bottom'
+    })
 
 }
