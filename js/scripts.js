@@ -3,7 +3,7 @@ $(document).ready(function() {
     initilizeSmoothScroll()
     setupIntersectionObserver();
     initializeTooltips();
-
+    initalizeEmail();
 
 })
 
@@ -69,4 +69,13 @@ function initializeTooltips(){
         placement: 'bottom'
     })
 
+}
+
+function initalizeEmail() {
+    $(function () {
+        $('.email-sender').click(function (event) {
+          var email = 'fortiz40.fo@gmail.com';
+          document.location = "mailto:"+email
+        });
+      });
 }

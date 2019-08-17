@@ -52,11 +52,11 @@ body {
     font-size: 32px;
 }
 
-.card-title{
+.card-title, h1, h2{
     font-family: 'Monda', sans-serif;
 }
 
-.main-text{
+.main-text, button {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -104,3 +104,18 @@ img{
     justify-content: flex-end;
 }
 
+.my-button {
+
+    height: 100%;
+    border-width: 5px;
+    border-color: white;
+    border-radius: 10%;
+    color: white;
+    background-color: transparent;
+}
+
+.section-content {
+    display: flex;
+    justify-content: center;
+    min-height: 500px;
+}
