@@ -52,17 +52,17 @@ body {
     font-size: 32px;
 }
 
-.card-title, h1, h2{
+.card-title, h1, h2, .job-title, .job-company{
     font-family: 'Monda', sans-serif;
 }
 
-.main-text, button {
+.main-text, button, .job-duties-list {
     font-family: 'Montserrat', sans-serif;
 }
 
 
 #main-content > .row {
-    margin: 0px 200px 0px 200px;
+    margin: 0px 300px 0px 300px;
 }
 
 .card{
@@ -73,18 +73,6 @@ body {
 .project-image{
     height: 50px;
     width: 50px;
-}
-
-
-
-#contact {
-    height: 500px;
-    background: green;
-}
-
-#experience {
-    height: 500px;
-    background: olivedrab;
 }
 
 .project-contents{
@@ -118,4 +106,25 @@ img{
     display: flex;
     justify-content: center;
     min-height: 500px;
+}
+
+.list-group-item {
+    background-color: black;
+    border-color: white;
+}
+
+.job-details{
+    display: flex;
+}
+
+.job-date {
+    margin-left: auto;
+}
+
+.job-duties-list {
+    list-style-type: circle;
+}
+
+.job-duties-list > li {
+    margin : 5px;
 }
