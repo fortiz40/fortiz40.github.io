@@ -128,3 +128,9 @@ img{
 .job-duties-list > li {
     margin : 5px;
 }
+
+@media screen and (max-width: 750px) {
+    #main-content > .row {
+        margin: 0;
+    }
+}
