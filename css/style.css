@@ -121,13 +121,41 @@ img{
     margin-left: auto;
 }
 
-.job-duties-list {
+.job-duties-list, .school-details-list {
     list-style-type: circle;
 }
 
 .job-duties-list > li {
     margin : 5px;
 }
+
+.list-group-item-action{
+    color: white;
+}
+
+.list-group-item-action:hover{
+    color: black;
+}
+
+.item-active {
+    color: black;
+    background-color: white;
+}
+
+.school-hidden {
+    display:none !important;
+}
+
+.align-right-parent {
+    display: flex;
+}
+
+.align-right-child {
+    margin-left: auto;
+}
+
+
+
 
 @media screen and (max-width: 750px) {
     #main-content > .row {

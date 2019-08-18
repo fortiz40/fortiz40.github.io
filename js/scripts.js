@@ -4,6 +4,7 @@ $(document).ready(function() {
     setupIntersectionObserver();
     initializeTooltips();
     initalizeEmail();
+    initializeSchools();
 
 })
 
@@ -78,4 +79,28 @@ function initalizeEmail() {
           document.location = "mailto:"+email
         });
       });
+}
+
+function initializeSchools() {
+
+    $('.school').click(function (event){
+        document.querySelector('.school.item-active').classList.remove('item-active');
+        event.target.classList.add('item-active')
+
+        $('.school-details').each( function(i) {
+            $(this).removeClass('school-hidden')
+        })
+
+        const school = event.target.getAttribute('id')
+
+
+        if (school === 'uci'){
+            document.querySelector('#sac-details').classList.add('school-hidden')
+        }
+        else if (school === 'sac') {
+            document.querySelector('#uci-details').classList.add('school-hidden')
+        }
+
+    })
+
 }
