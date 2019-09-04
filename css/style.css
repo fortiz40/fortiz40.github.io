@@ -17,8 +17,14 @@ body {
 .spacer {
     height: 6vh;
 }
+.scrolled-navbar{
+    /* https://stackoverflow.com/questions/14904731/add-a-drop-shadow-to-a-top-fixed-nav-bar-using-bootstrap */
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
 
-.light {
+.dark {
     color: black;
 }
 
