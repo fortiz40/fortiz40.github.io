@@ -1,17 +1,17 @@
 .fab {
-    color: black;
+    color: white;
 
     padding-right: 20px;
 }
 
 .fas {
-    color: white;
+    color: black;
     padding-right: 20px;
 }
 
 body {
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
 }
 
 .spacer {
@@ -19,7 +19,7 @@ body {
 }
 
 .light {
-    color: white;
+    color: black;
 }
 
 .navbar{
@@ -32,7 +32,7 @@ body {
 
 
 #intro {
-    background-color: black;
+    background-color: white;
     height: 100vh;
 }
 
@@ -95,10 +95,10 @@ img{
 .my-button {
 
     height: 100%;
-    border-width: 5px;
-    border-color: white;
+    border-width: 2px;
+    border-color: black;
     border-radius: 10%;
-    color: white;
+    color: black;
     background-color: transparent;
 }
 
@@ -109,8 +109,8 @@ img{
 }
 
 .list-group-item {
-    background-color: black;
-    border-color: white;
+    background-color: white;
+    border-color: black;
 }
 
 .job-details{
@@ -130,7 +130,7 @@ img{
 }
 
 .list-group-item-action{
-    color: white;
+    color: black;
 }
 
 .list-group-item-action:hover{
@@ -138,8 +138,8 @@ img{
 }
 
 .item-active {
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black;
 }
 
 .school-hidden {

@@ -37,9 +37,9 @@ function setupIntersectionObserver() {
     const introContentObserver = new IntersectionObserver(function(entries, introContentObserver) {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                nav.classList.remove('navbar-light')
-                nav.classList.add('navbar-dark')
-                nav.classList.remove('bg-light')
+                nav.classList.remove('navbar-dark')
+                nav.classList.add('navbar-light')
+                nav.classList.remove('bg-dark')
                 nav.classList.add('bg-transparent')
                 socialIcons.forEach(icon => {
                     icon.classList.add('light');
@@ -47,10 +47,10 @@ function setupIntersectionObserver() {
                 
             }
             else{
-                nav.classList.add('navbar-light')
-                nav.classList.remove('navbar-dark')
+                nav.classList.add('navbar-dark')
+                nav.classList.remove('navbar-light')
                 nav.classList.remove('bg-transparent')
-                nav.classList.add('bg-light')
+                nav.classList.add('bg-dark')
                 socialIcons.forEach( icon => {
                     icon.classList.remove('light')
                 })
@@ -84,8 +84,8 @@ function initalizeEmail() {
 function initializeSchools() {
 
     $('.school').click(function (event){
-        document.querySelector('.school.item-active').classList.remove('item-active');
-        event.target.classList.add('item-active')
+        document.querySelector('.school.active').classList.remove('active');
+        event.target.classList.add('active')
 
         $('.school-details').each( function(i) {
             $(this).removeClass('school-hidden')
