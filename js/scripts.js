@@ -86,7 +86,7 @@ function initalizeEmail() {
 function initializeSchools() {
 
     $('.school').click(function (event){
-        document.querySelector('.school.item-active').classList.remove('active');
+        document.querySelector('.school.active').classList.remove('active');
         event.target.classList.add('active')
 
         $('.school-details').each( function(i) {
