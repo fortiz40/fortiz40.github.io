@@ -5,6 +5,7 @@ $(document).ready(function() {
     initializeTooltips();
     initalizeEmail();
     initializeSchools();
+    initalizeResumeViewer();
 
 })
 
@@ -79,6 +80,14 @@ function initalizeEmail() {
         $('.email-sender').click(function (event) {
           var email = 'fortiz40.fo@gmail.com';
           document.location = "mailto:"+email
+        });
+      });
+}
+function initalizeResumeViewer() {
+    $(function () {
+        $('.resume-viewer').click(function (event) {
+          var url = "https://docs.google.com/document/d/1ZPItGsX3D1p6NBIv7qo1GGRGAc7jQ8nLNa-k9PRf5GM/edit?usp=sharing";
+          window.open(url, "_blank")
         });
       });
 }
